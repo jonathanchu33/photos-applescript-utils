@@ -2,6 +2,8 @@
 
 global albumMemberships
 
+(* List the albums that the selected media item belongs to (if any). *)
+
 -- Main handler
 on run
 	set albumMemberships to {}

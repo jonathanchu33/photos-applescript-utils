@@ -4,6 +4,9 @@ global myAlbums
 global filedMedia
 global filedMediaIds
 
+(* Sort all media items into two categories: those which have been filed into at least one
+album, and those which haven't. Create new albums for both categories. *)
+
 -- Main handler
 on run
 	set myAlbums to {}
